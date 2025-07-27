@@ -26,12 +26,14 @@ const items = [
     {
       label: "Pronajem kol",
       icon: "i-material-symbols:pedal-bike-outline-rounded",
+      to: "/bicycles",
     },
   ],
   [
     {
       label: "Pronajem aut",
       icon: "i-bi:car-front-fill",
+      to: "/cars",
     },
   ],
 ];

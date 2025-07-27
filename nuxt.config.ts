@@ -22,7 +22,14 @@ export default defineNuxtConfig({
         },
         { name: "keywords", content: "Auta, Kola, Vyklizení, Stehování" },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        {
+          rel: "alternate",
+          hreflang: "cs",
+          href: "https://andrii.devhost.uk",
+        },
+      ],
     },
   },
 
