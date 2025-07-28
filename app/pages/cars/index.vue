@@ -5,7 +5,7 @@
         <NuxtLink :to="car.stem">
           <UCard variant="subtle">
             <template #header>
-              <img :src="car.sources[0]" class="rounded object-cover">
+              <NuxtImg :src="car.sources[0]" class="rounded object-cover" />
             </template>
 
             <div class="text-xl font-bold text-justify">{{ car.title }}</div>
