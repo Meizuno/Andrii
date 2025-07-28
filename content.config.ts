@@ -21,6 +21,19 @@ export default defineContentConfig({
     carsInfo: defineCollection({
       type: 'page',
       source: 'cars/**.md',
+    }),
+    bicycles: defineCollection({
+      type: 'data',
+      source: 'bicycles/**.json',
+      schema: z.object({
+        sources: z.array(z.string()).min(1),
+        title: z.string(),
+        description: z.string(),
+      })
+    }),
+    bicyclesInfo: defineCollection({
+      type: 'page',
+      source: 'bicycles/**.md',
     })
   },
 })
