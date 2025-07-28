@@ -5,7 +5,7 @@
       <UContainer as="main" class="h-full">
         <slot />
       </UContainer>
-      <AppFooter />
     </div>
+    <AppFooter />
   </div>
 </template>

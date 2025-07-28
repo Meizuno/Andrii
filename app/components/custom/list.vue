@@ -9,7 +9,7 @@
         :key="index"
         class="flex items-center gap-2"
       >
-        <UIcon :name="iconName" class="w-5 h-5 text-primary" />
+        <UIcon :name="iconName" class="w-5 h-5 min-w-5 min-h-5 text-primary" />
         <span class="text-toned">{{ item }}</span>
       </div>
     </div>

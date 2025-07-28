@@ -1,13 +1,26 @@
-import { defineCollection, defineContentConfig } from '@nuxt/content'
+import { defineCollection, defineContentConfig, z } from '@nuxt/content'
 import { asSitemapCollection } from '@nuxtjs/sitemap/content'
 
 export default defineContentConfig({
   collections: {
-    content: defineCollection(
+    index: defineCollection(
       asSitemapCollection({
         type: 'page',
-        source: '**/*.md',
+        source: 'index.md',
       }),
     ),
+    cars: defineCollection({
+      type: 'data',
+      source: 'cars/**.json',
+      schema: z.object({
+        sources: z.array(z.string()).min(1),
+        title: z.string(),
+        description: z.string(),
+      })
+    }),
+    carsInfo: defineCollection({
+      type: 'page',
+      source: 'cars/**.md',
+    })
   },
 })

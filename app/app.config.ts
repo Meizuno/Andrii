@@ -16,5 +16,13 @@ export default defineAppConfig({
         root: "py-2",
       },
     },
+    card: {
+      slots: {
+        root: "hover:scale-105 transition duration-300",
+        header: "sm:p-4",
+        body: "sm:p-4",
+        footer: "sm:p-4",
+      },
+    },
   },
 });
