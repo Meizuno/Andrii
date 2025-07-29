@@ -1,5 +1,8 @@
 ---
 title: Pronájem dodávky
+sitemap:
+  videos: []
+  images: []
 ---
 
 ::prose-div{.grid.grid-cols-1.md:grid-cols-2.gap-8}
@@ -13,14 +16,14 @@ title: Pronájem dodávky
 
   :::prose-div{.flex.flex-col.gap-4}
     ::::prose-h2{.text-3xl.font-bold}
-    Pronájem dodávky IVECO DAILY 3L, automatická převodovka 6 místní.
+    IVECO DAILY 3L
     ::::
   
     ::::u-separator
     ::::
   
     ::::prose-h3{.text-2xl.font-semibold}
-    Délka nákladného prostoru 3.8 m. celková délka auta 7 m.
+    Délka nákladného prostoru 3.8 m.,celková délka auta 7 m, automatická převodovka 6 místní.
     ::::
   
     ::::prose-div{.flex.flex-col.gap-2}
