@@ -3,7 +3,7 @@
 ::u-separator{size="lg"}
 ::
 
-::custom-list
+::prose-list
 ---
 items:
   - Vyklizení nemovitostí
@@ -18,7 +18,7 @@ title: "Přestěhujeme vás z bytů, rodinných domů, chalup i jinych bytovych 
 ---
 ::
 
-::custom-table
+::prose-table
 ---
 items:
   - - 1 stěhovák
@@ -36,7 +36,7 @@ title: Cenik
 ---
 ::
 
-::custom-list
+::prose-list
 ---
 items:
   - Mezinárodní stěhování

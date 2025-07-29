@@ -3,10 +3,10 @@ import { asSitemapCollection } from "@nuxtjs/sitemap/content";
 
 export default defineContentConfig({
   collections: {
-    index: defineCollection(
+    content: defineCollection(
       asSitemapCollection({
         type: "page",
-        source: "index.md",
+        source: "**/**.md",
       })
     ),
     cars: defineCollection({
