@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-muted text-xs md:text-md gap-2 bg-elevated py-4">
+  <footer class="text-muted text-sm md:text-md gap-2 bg-elevated py-4">
     <UContainer
       class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 lg:justify-items-center"
     >
