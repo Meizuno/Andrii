@@ -11,18 +11,5 @@ export default defineAppConfig({
         link: "flex-col gap-1 md:gap-2 md:flex-row",
       },
     },
-    separator: {
-      slots: {
-        root: "py-2",
-      },
-    },
-    card: {
-      slots: {
-        root: "hover:scale-105 transition duration-300",
-        header: "sm:p-4",
-        body: "sm:p-4",
-        footer: "sm:p-4",
-      },
-    },
   },
 });

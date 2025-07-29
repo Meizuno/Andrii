@@ -2,7 +2,7 @@
 title: Pronájem dodávky
 ---
 
-::prose-div{.flex.flex-col.md:flex-row.gap-8}
+::prose-div{.grid.grid-cols-1.md:grid-cols-2.gap-8}
   :::prose-carousel
   ---
   sources:
@@ -11,44 +11,97 @@ title: Pronájem dodávky
   ---
   :::
 
-  :::prose-div
-  [Pronájem dodávky IVECO DAILY 3L, automatická převodovka 6 místní.]{.text-2xl.font-bold}
-  
+  :::prose-div{.flex.flex-col.gap-4}
+    ::::prose-h2{.text-3xl.font-bold}
+    Pronájem dodávky IVECO DAILY 3L, automatická převodovka 6 místní.
+    ::::
+
     ::::u-separator
     ::::
   
-  [Délka nákladného prostoru 3.8 m. celková délka auta 7 m.]{.text-xl.font-semibold}
-  
-    ::::prose-table
-    ---
-    items:
-      - - 2 hodiny
-        - 600,- Kč
-      - - 4 hodiny
-        - 900,- Kč
-      - - 12 hodin
-        - 1200,- Kč
-      - - 1 den
-        - 1500,- Kč
-      - - 2 a více dnů
-        - 1400,- Kč denně
-    class: py-4
-    title: Krátkodobý pronájem
-    ---
+    ::::prose-h3{.text-2xl.font-semibold}
+      Délka nákladného prostoru 3.8 m. celková délka auta 7 m.
+    ::::
+
+    ::::prose-div{.flex.flex-col.gap-2}
+
+      :::::prose-h4{.text-lg.font-semibold}
+      Krátkodobý pronájem
+      :::::
+
+      :::::prose-ul{.flex.flex-col.gap-1}
+        :::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+          2 hodiny
+
+          600,- Kč
+        :::::
+
+        :::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+          4 hodiny
+
+          900,- Kč
+        :::::
+
+        :::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+          12 hodin
+
+          1200,- Kč
+        :::::
+
+        :::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+          1 den
+
+          1500,- Kč
+        :::::
+
+        :::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+          2 a více dnů
+
+          1400,- Kč denně
+        :::::
+      :::::
+
+      Nájezd kilometrů: 500 km = 1 účtovaný den Přistavení vozu: 200,- Kč po Brně
     ::::
   
-  Nájezd kilometrů: 500 km = 1 účtovaný den Přistavení vozu: 200,- Kč po Brně
-  
-    ::::prose-list
-    ---
-    items:
-      - Občanský průkaz
-      - Řidičský průkaz
-      - Složení vratné zálohy (jistiny proti poškození vozidla) na případnou
-        spoluúčast ve výši 5000 Kč v ČR nebo 10000 Kč mimo ČR
-    class: py-4
-    title: Podmínky zapůjčení
-    ---
+    ::::prose-ul{.flex.flex-col.gap-2}
+
+      :::::prose-h4{.text-lg.font-semibold}
+        Podmínky zapůjčení
+      :::::
+
+      :::::prose-li{.flex.items-center.gap-2}
+
+        ::::::u-icon{.w-5.h-5.min-w-5.min-h-5.text-primary}
+        ---
+        name: i-icon-park-outline:dot
+        ---
+        ::::::
+
+        Občanský průkaz
+      :::::
+
+      :::::prose-li{.flex.items-center.gap-2}
+
+        ::::::u-icon{.w-5.h-5.min-w-5.min-h-5.text-primary}
+        ---
+        name: i-icon-park-outline:dot
+        ---
+        ::::::
+
+        Řidičský průkaz
+      :::::
+
+      :::::prose-li{.flex.items-center.gap-2}
+
+        ::::::u-icon{.w-5.h-5.min-w-5.min-h-5.text-primary}
+        ---
+        name: i-icon-park-outline:dot
+        ---
+        ::::::
+
+        Složení vratné zálohy (jistiny proti poškození vozidla) na případnou spoluúčast ve výši 5000 Kč v ČR nebo 10000 Kč mimo ČR
+      :::::
     ::::
   :::
 ::

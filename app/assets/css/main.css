@@ -1,2 +1,4 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+@source inline("text-3xl font-bold md:grid-cols-2");
