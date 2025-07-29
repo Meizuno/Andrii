@@ -1,0 +1,1 @@
+import{_ as s,d as r,i as n,Q as o}from"./B25dNF1H.js";const t={};function a(e,c){return n(),r("div",null,[o(e.$slots,"default")])}const l=Object.assign(s(t,[["render",a]]),{__name:"ProseDiv"});export{l as default};
