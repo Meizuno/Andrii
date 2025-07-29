@@ -23,7 +23,7 @@ sitemap:
     ::::
   
     ::::prose-h3{.text-2xl.font-semibold}
-    Délka nákladného prostoru 3.8 m.,celková délka auta 7 m, automatická převodovka 6 místní.
+    Délka nákladného prostoru 3.8 m, automatická převodovka 6 místní, celková délka auta 7 m.
     ::::
   
     ::::prose-div{.flex.flex-col.gap-2}
