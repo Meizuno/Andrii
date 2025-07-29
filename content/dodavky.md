@@ -1,26 +1,25 @@
 ---
-title: 'Pronájem dodávky'
+title: Pronájem dodávky
 ---
 
-::prose-div{class='flex flex-col md:flex-row gap-8'}
-  ::prose-carousel
+::prose-div{.flex.flex-col.md:flex-row.gap-8}
+  :::prose-carousel
   ---
-  sources: [
-    "/images/cars/car_1_1.webp",
-    "/images/cars/car_1_2.webp"
-  ]
+  sources:
+    - /images/cars/car_1_1.webp
+    - /images/cars/car_1_2.webp
   ---
-  ::
+  :::
 
-  ::prose-div
-    [Pronájem dodávky IVECO DAILY 3L, automatická převodovka 6 místní.]{.text-2xl.font-bold}
-
-    ::u-separator
-    ::
-
-    [Délka nákladného prostoru 3.8 m. celková délka auta 7 m.]{.text-xl.font-semibold}
-
-    ::prose-table
+  :::prose-div
+  [Pronájem dodávky IVECO DAILY 3L, automatická převodovka 6 místní.]{.text-2xl.font-bold}
+  
+    ::::u-separator
+    ::::
+  
+  [Délka nákladného prostoru 3.8 m. celková délka auta 7 m.]{.text-xl.font-semibold}
+  
+    ::::prose-table
     ---
     items:
       - - 2 hodiny
@@ -36,11 +35,11 @@ title: 'Pronájem dodávky'
     class: py-4
     title: Krátkodobý pronájem
     ---
-    ::
-
-    Nájezd kilometrů: 500 km = 1 účtovaný den Přistavení vozu: 200,- Kč po Brně
-
-    ::prose-list
+    ::::
+  
+  Nájezd kilometrů: 500 km = 1 účtovaný den Přistavení vozu: 200,- Kč po Brně
+  
+    ::::prose-list
     ---
     items:
       - Občanský průkaz
@@ -50,6 +49,6 @@ title: 'Pronájem dodávky'
     class: py-4
     title: Podmínky zapůjčení
     ---
-    ::
-  ::
+    ::::
+  :::
 ::
