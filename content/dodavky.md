@@ -30,31 +30,31 @@ title: Pronájem dodávky
       :::::
 
       :::::prose-ul{.flex.flex-col.gap-1}
-        :::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+        :::::prose-li{.w-full.p-1.flex.justify-between.border-b.border-(--ui-border-accented)}
           2 hodiny
 
           600,- Kč
         :::::
 
-        :::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+        :::::prose-li{.w-full.p-1.flex.justify-between.border-b.border-(--ui-border-accented)}
           4 hodiny
 
           900,- Kč
         :::::
 
-        :::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+        :::::prose-li{.w-full.p-1.flex.justify-between.border-b.border-(--ui-border-accented)}
           12 hodin
 
           1200,- Kč
         :::::
 
-        :::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+        :::::prose-li{.w-full.p-1.flex.justify-between.border-b.border-(--ui-border-accented)}
           1 den
 
           1500,- Kč
         :::::
 
-        :::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+        :::::prose-li{.w-full.p-1.flex.justify-between.border-b.border-(--ui-border-accented)}
           2 a více dnů
 
           1400,- Kč denně

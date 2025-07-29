@@ -98,31 +98,31 @@
     ::::
 
     ::::prose-ul{.flex.flex-col.gap-1}
-      ::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+      ::::prose-li{.w-full.p-1.flex.justify-between.border-b.border-(--ui-border-accented)}
         1 stěhovák
 
         300,- Kč
       ::::
 
-      ::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+      ::::prose-li{.w-full.p-1.flex.justify-between.border-b.border-(--ui-border-accented)}
         2 stěhováci
 
         600,- Kč
       ::::
 
-      ::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+      ::::prose-li{.w-full.p-1.flex.justify-between.border-b.border-(--ui-border-accented)}
         auto + řidič
 
         500,- Kč
       ::::
 
-      ::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+      ::::prose-li{.w-full.p-1.flex.justify-between.border-b.border-(--ui-border-accented)}
         Sazba za kilometr
 
         18,- Kč
       ::::
 
-      ::::prose-li{.w-full.p-1.grid.border-b.border-(--ui-border-accented).grid-cols-[1fr_auto]}
+      ::::prose-li{.w-full.p-1.flex.justify-between.border-b.border-(--ui-border-accented)}
         Minimální cena pronájmu auta s řidičem
 
         1000,- Kč
