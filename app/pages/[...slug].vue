@@ -1,11 +1,12 @@
 <script lang="ts" setup>
 const route = useRoute();
+const router = useRouter();
 const { data: page } = await useAsyncData(route.path, () => {
   return queryCollection("content").path(route.path).first();
 });
 
 if (!page.value) {
-  navigateTo("/");
+  router.replace("/");
 }
 
 useHead({
