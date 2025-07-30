@@ -1,13 +1,20 @@
 <script lang="ts" setup>
 const route = useRoute();
-const router = useRouter();
-const { data: page } = await useAsyncData(route.path, () => {
+const { data: page, status } = await useAsyncData(route.path, () => {
   return queryCollection("content").path(route.path).first();
 });
 
-if (!page.value) {
-  router.replace("/");
-}
+watch(
+  status,
+  () => {
+    if (status.value === "success" && page.value === null) {
+      navigateTo("/");
+    }
+  },
+  {
+    immediate: true,
+  }
+);
 
 useHead({
   titleTemplate: (titleChunk) => {
